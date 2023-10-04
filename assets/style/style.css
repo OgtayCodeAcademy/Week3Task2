@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "Monserrat-Italic";
+  src: url(../Fonts/Montserrat/Montserrat-LightItalic.ttf);
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../Fonts/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../Fonts/Montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(../Fonts/Lato/Lato-Bold.ttf);
+}
+
+/* NAVIGATION BAR */
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #212529;
+  position: fixed;
+  z-index: 999;
+}
+header .container .nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .nav .hero-logo img {
+  width: 100%;
+  height: 100%;
+}
+header .container .nav .hero-logo {
+    width: 150px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .container .nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+header .container .nav ul li {
+  margin-left: 20px;
+  color: #d4ffeb;
+  font-size: 15px;
+  font-family: "Montserrat-Regular";
+  font-weight: 200;
+  text-transform: uppercase;
+}
+header .container .nav ul li:hover a {
+  color: rgb(254, 209, 54);
+  transition: 0.5s;
+}
+header .container .nav .hamburger-menu {
+  display: none;
+  border: 1px solid grey;
+  border-radius: 6px;
+  padding: 7px 16px;
+  color: grey;
+  font-weight: 600;
+}
+
+/* Main Section-1 */
+main .section-1{
+    width: 100%;
+    height: 120vh;
+    background-image: url(../Images/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+main .section-1 .container .row .col-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    flex-direction: column;
+}
+main .section-1 .container .row .col-12 h2{
+    color: white;
+    font-size: 250%;
+    text-align: center;
+    font-family: 'Montserrat-Italic';
+    font-style: italic;
+}
+main .section-1 .container .row .col-12 h1{
+    color: white;
+    font-size: 500%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato-Bold';
+    margin-top: 20px;
+}
+main .section-1 .container .row .col-12 h3{
+    width: 20%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFC800;
+    background-color: #FFC800;
+    border-radius: 10px;
+    color: white; 
+    text-transform: uppercase;
+    font-family: 'Lato-Bold';
+    margin-top: 70px;
+}
+
+/* Services */
+.services{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.services .container .row .col-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    flex-direction: column;
+}
+.services .container .row .col-12 h4{
+    color: #212529;
+    font-size: 40px;
+    font-family: 'Montserrat-Bold';
+    text-transform: uppercase;
+}
+.services .container .row .col-12 p{
+    color: grey;
+    font-style: italic;
+    margin-top: 15px;
+    font-size: 19px;
+}
+.services .container .service-row .col-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px ;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+}
+.col-4 .services-icons{
+    width: 130px;
+    height: 130px;
+    background-color: #FFC800;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-4 i{
+    font-size: 50px;
+    color: white;
+}
+.col-4 p.service-name{
+    margin-top: 10px;
+    font-size: 25px;
+    color: #212529;
+    font-family: 'Montserrat-Bold';
+}
+.col-4 p.service-about{
+    color: gray;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.service-row{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
